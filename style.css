@@ -1,0 +1,115 @@
+/* body{
+
+} */
+*{
+    /* m:0 karne se margin 0 likha aa jata h ...it's a shortcut */
+    margin: 0;
+    /* p:0 se padding 0 likha aa jata h */
+    padding: 0;
+}
+nav{
+    background-color: black;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 0px 10px;
+    margin: 0px 2px;
+}
+
+.brand{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.brand img{
+    width: 40px;
+    padding-right: 12px;
+    padding-top: 4px;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    margin: 15px auto;
+    display: flex;
+    width: 70%;
+    border-radius: 12px;
+    padding: 4px 12px;
+    min-height: 70vh;
+    background-image: url('bg7.jpg');
+    background-size: 100% 100%;
+}
+
+.bottom{
+    position: sticky;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 130px;
+}
+
+#myProgressBar{
+    width: 70%;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 10px;
+}
+
+.icons i{
+    cursor: pointer;
+    margin: 4px;
+}
+
+.songlist{
+    padding: 10px;
+}
+
+.songitem{
+    height: 40px;
+    /* width: 80%; */
+    background-color: #d6c4d0;
+    display: flex;
+    color: black;
+    border-radius: 33px;
+    margin: 10px;
+    padding: 3px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songitem img{
+    border-radius: 23px;
+    width: 40px;
+    height: 40px;
+}
+
+.timestamp{
+    margin: 0px 7px;
+}
+
+.songlistplay{
+    display: flex;
+    align-items: center;
+}
+
+/* .songbanner{} */
+
+/* .songinfo{} */
+
+.songlistcontainer{
+    margin-top: 50px;
+}
